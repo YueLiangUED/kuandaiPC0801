@@ -1,5 +1,7 @@
 @charset "utf-8";
-
+a:focus {
+    outline: none;
+}
 .index-wrapper {
     width: 800px;
     margin: 0 auto;
@@ -306,7 +308,19 @@
     font-size: 22px;
     margin-top: 25px;
 }
-
+.kd-btn-group-tab {
+    width: 520px;
+    margin: 13px auto 0;
+}
+.kd-btn-group-tab .kd-btn {
+    width: 184px;
+    background-color: #ccc;
+    color: #666666;
+}
+.kd-btn-group-tab .kd-btn.act {
+    background-color: #e40077;
+    color: #fff;
+}
 
 
 .pdt-0 {
@@ -391,4 +405,7 @@
 }
 .w-365 {
     width: 365px;
+}
+.h-750 {
+    height: 750px;
 }
