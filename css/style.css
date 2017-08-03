@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 .index-wrapper {
     width: 800px;
     margin: 0 auto;
@@ -141,11 +142,253 @@
     padding-left: 15px;
     width: 695px;
 }
-.pdt-50 {
-    padding-top: 50px;
-}
 .kd-btn-group-duble {
     width: 540px;
     margin: 0 auto;
     margin-top: 35px;
+}
+.kd-form {
+    padding-left: 45px;
+    padding-bottom: 30px;
+}
+.form-group {
+    margin-top: 30px;
+}
+.form-title {
+    display: table-cell;
+    width: 171px;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #666666;
+}
+.form-select {
+    position: relative;
+    display: table-cell;
+    border: 1px solid #b6b6b6;
+}
+.form-select .select-span {
+    display: block;
+    width: 261px;
+    height: 38px;
+    line-height: 38px;
+    padding-right: 27px;
+    text-align: center;
+    font-size: 22px;
+    color: #333333;
+    background: url("../images/select-icon.png") no-repeat 261px center;
+}
+.form-select select {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 288px;
+    height: 38px;
+    border: none;
+    outline: none;
+    opacity: 0;
+}
+.form-textarea {
+    display: table-cell;
+    border: 1px solid #b6b6b6;
+}
+.form-textarea textarea {
+    width: 373px;
+    height: 48px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 22px;
+    color: #333;
+    font-family: "Microsoft YaHei";
+}
+.form-input {
+    display: table-cell;
+    border: 1px solid #b6b6b6;
+}
+.form-input input {
+    width: 288px;
+    height: 38px;
+    line-height: 38px;
+    border: none;
+    font-size: 22px;
+    color: #333;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+}
+.form-title-bl {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+.form-textarea-bl {
+    border: 1px solid #b6b6b6;
+    width: 582px;
+}
+.form-textarea-bl textarea {
+    width: 542px;
+    height: 98px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 22px;
+    color: #333;
+    font-family: "Microsoft YaHei";
+}
+.form-group input::-webkit-input-placeholder {
+    color:#333;
+}
+.form-group input:-moz-placeholder {
+    color:#333;
+}
+.form-group input::-moz-placeholder {
+    color:#333;
+}
+.form-group input:-ms-input-placeholder {
+    color:#333;
+}
+
+.form-group textarea::-webkit-input-placeholder {
+    color:#333;
+}
+.form-group textarea:-moz-placeholder {
+    color:#333;
+}
+.form-group textarea::-moz-placeholder {
+    color:#333;
+}
+.form-group textarea:-ms-input-placeholder {
+    color:#333;
+}
+.form-group.act .form-title-bl,
+.form-group.act .form-title {
+    color: #0084cf;
+}
+.form-group.act .form-textarea-bl,
+.form-group.act .form-textarea,
+.form-group.act .form-input,
+.form-group.act .form-select {
+    border-color: #0084cf;
+}
+.kd-form-edited {
+    padding-left: 45px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.form-group-dited {
+    margin-top: 30px;
+}
+.form-title-edited {
+    display: table-cell;
+    width: 190px;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #666666;
+}
+.form-content-edited {
+    display: table-cell;
+    width: 390px;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #666666;
+}
+.form-title-edited-bl {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+.form-content-edited-bl {
+    width: 584px;
+    font-size: 18px;
+    color: #333;
+}
+.content-box .content-tip {
+    padding-left: 30px;
+    background: url("../images/tip_icon.jpg") no-repeat left center;
+    color: #e40077;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+
+
+.pdt-0 {
+    padding-top: 0;
+}
+.pdt-10 {
+    padding-top: 10px;
+}
+.pdt-30 {
+    padding-top: 30px;
+}
+.pdt-40 {
+    padding-top: 40px;
+}
+.pdt-45 {
+    padding-top: 45px;
+}
+.pdt-50 {
+    padding-top: 50px;
+}
+.pdt-110 {
+    padding-top: 110px;
+}
+.pdl-15 {
+    padding-left: 15px;
+}
+.pdl-45 {
+    padding-left: 45px;
+}
+.pdl-60 {
+    padding-left: 60px;
+}
+
+.pdr-25 {
+    padding-right: 25px;
+}
+.pdb-0 {
+    padding-bottom: 0;
+}
+.pdb-10 {
+    padding-bottom: 10px;
+}
+.pdb-30 {
+    padding-bottom: 30px;
+}
+.pdb-40 {
+    padding-bottom: 40px;
+}
+.pdb-70 {
+    padding-bottom: 70px;
+}
+
+.minH_0 {
+    min-height: 0;
+}
+.content-box p.color_e40077 {
+    color: #e40077;
+}
+.mgt-10 {
+    margin-top: 10px;
+}
+.mgt-20 {
+    margin-top: 10px;
+}
+.mgt-30 {
+    margin-top: 30px;
+}
+.mgr-20 {
+    margin-right: 20px;
+}
+.w-400 {
+    width: 410px;
+}
+.w-300 {
+    width: 300px;
+}
+.w-325{
+    width: 325px;
+}
+.w-290 {
+    width: 290px;
+}
+.w-365 {
+    width: 365px;
 }
